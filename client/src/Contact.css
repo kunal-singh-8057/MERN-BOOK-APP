@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.newcon
+{
+    background-image: url('./Assets/img9.jpg');
+    width: 100%;
+    height: 102vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -6%;
+   
+}
+
+.form2
+{
+    margin-top: -40%;
+    background-color: white;
+    width: 25%;
+    height: 70vh;
+    margin-left: 60%;
+    border-radius: 20px;
+}
+
+.form2 h1
+{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.form2 input
+{
+  
+    width: 95%;
+    height: 5vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: azure;
+    margin-left: 2%;
+}
+
+.form2 textarea
+{
+    width: 95%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 12vh;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+.form2 label{
+    margin-left: 5%;
+}
+
+.form2 button
+{
+    margin-top: 4%;
+    width: 100%;
+    background-color: palevioletred;
+    color: white;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.con{
+    color: white;
+    margin-top: -25%;
+    margin-left: 5%;
+    font-size: 65px;
+    width: 35%;
+}

@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.form1
+{
+    width: 25%;
+    height: 75vh;
+    /*background-color: #ff57ff;*/
+    background: linear-gradient(90.4deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%);
+    margin-left: 37%;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+
+.form1 h1{
+    color: white;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+
+.img2
+{
+    width: 50%;
+    margin-top: -25%;
+    margin-left: 24%;
+}
+
+.form1 label
+{
+    color: white;
+    margin-left: 3%;
+}
+
+.form1 input
+{
+    width: 95%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 3%;
+}
+
+.form1 button
+{
+    background-color: #ffd700;
+    color: black;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+.navr
+{
+    color: white;
+    text-decoration: none;
+    margin-top: 2%;
+}

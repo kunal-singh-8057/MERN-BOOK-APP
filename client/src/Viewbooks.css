@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.back6
+{
+    background-image: url('./Assets/img10.jpg');
+    width: 100%;
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5%;
+}
+
+.newsum
+{
+
+color: black;
+width: 100%;
+height: 120vh;
+margin-top: -75%;
+border-radius: 10px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+
+.bimage
+{
+    width: 35%;
+    margin-left:45%;
+    margin-top: 30%;
+}
+
+
+.puu
+{
+    margin-left: 35%;
+    
+}
+
+
+
+.buy-btn
+{
+    margin-left: 40%;
+    background-color: crimson;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    text-decoration: none;
+}

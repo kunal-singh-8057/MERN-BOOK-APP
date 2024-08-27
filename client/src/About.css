@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.back5
+{
+    background-image: url('./Assets/img7.avif');
+    width: 100%;
+    height: 110.7vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10%;
+}
+
+.hu
+{
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 70%;
+    font-size: 55px;
+    color: white;
+}
+
+.img4
+{
+    width: 35%;
+    margin-top: -95%;
+    margin-left: 60%;
+}
+
+.div2
+{
+    margin-top: -3%;
+}
+
+.par
+{
+    width: 25%;
+    margin-left: 66%;
+    margin-top: -25%;
+    color: black;
+}
+

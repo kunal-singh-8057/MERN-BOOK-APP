@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav
+{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.nav h1{
+    color: white;
+    margin-left: 2%;
+}
+
+.navlink
+{
+    margin-left: 20%;
+}
+
+.navlinks
+{
+    color: white;
+    margin-left: 45%;
+    text-decoration: none;
+}
+
+.navlinks:hover
+{
+    color: gold;
+}
+
+.log
+{
+    margin-left: 20%;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
