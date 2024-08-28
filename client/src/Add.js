@@ -11,7 +11,7 @@ const Add = () => {
   const[price,setprice] = useState("");
 
   const cre = ()=>{
-    Axios.post("/createbooks",{
+    Axios.post("https://mern-book-app-nine.vercel.app/createbooks",{
       name:name,
       aurthor:aurthor,
       descripition:descripition,
