@@ -19,6 +19,11 @@ mongoose.connect(MOGODB_URL).then(()=>{
     console.log("Database connection failed")
 })
 
+//METHOD TO GET HELLO
+app.get("/",(req,res)=>{
+    res.json("Hello")
+})
+
 // Method to create the books
 app.post("/createbooks",async(req,res)=>{
     const que = await bookmodels.create(req.body)
