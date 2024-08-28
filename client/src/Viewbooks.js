@@ -9,7 +9,7 @@ const Viewbooks = () => {
 
 
   useEffect(()=>{
-    Axios.get("/getbooks")
+    Axios.get("https://mern-book-app-nine.vercel.app/getbooks")
 
     .then((response)=>{
       setusers(response.data);
