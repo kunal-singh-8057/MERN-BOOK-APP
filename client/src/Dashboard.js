@@ -12,7 +12,7 @@ const Dashboard = () => {
 
   useEffect(()=>{
     
-  Axios.get("/getbooks")
+  Axios.get("https://mern-book-app-nine.vercel.app/getbooks")
   .then((res=>{
     setusers(res.data)
   }))
@@ -23,7 +23,7 @@ const Dashboard = () => {
   },[])
 
 const del = (id)=>{
-Axios.delete("/deletebooksbyid/"+id)
+Axios.delete("https://mern-book-app-nine.vercel.app/deletebooksbyid/"+id)
 .then((res)=>{console.log(res)})
 .catch((err)=>{console.log(err)})
 alert("Book Data Deleted successfully")
