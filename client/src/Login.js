@@ -13,7 +13,7 @@ const Login = () => {
 
   const login = ()=>{
 
-    Axios.post("/login",{email,password})
+    Axios.post("https://mern-book-app-nine.vercel.app/login",{email,password})
   
     .then(result=>{
       console.log(result)
