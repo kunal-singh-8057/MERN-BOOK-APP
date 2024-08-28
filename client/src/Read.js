@@ -13,7 +13,7 @@ const Read = () => {
     const navigate = useNavigate();
 
     const buy = ()=>{
-        Axios.post("/order",{
+        Axios.post("https://mern-book-app-nine.vercel.app/order",{
             name:name,
             price:price,
             address:address
