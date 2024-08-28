@@ -18,7 +18,7 @@ const Update = () => {
  
 
   useEffect(()=>{
-    Axios.get("/viewbooksbyid/"+id)
+    Axios.get("https://mern-book-app-nine.vercel.app/viewbooksbyid/"+id)
     .then(res=>{
       setvalues({...values, name: res.data.name, aurthor: res.data.aurthor,descripition: res.data.descripition,image: res.data.image,price: res.data.price})
 })
@@ -27,7 +27,7 @@ const Update = () => {
   const navigate = useNavigate()
 
   const update = ()=>{
-    Axios.put("/updatebooksbyid/"+id,values)
+    Axios.put("https://mern-book-app-nine.vercel.app/updatebooksbyid/"+id,values)
     alert("Data updated successfully")
     navigate("/dashboard")
     }
