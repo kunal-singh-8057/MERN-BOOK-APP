@@ -13,7 +13,7 @@ const Signup = () => {
 
   const signup = ()=>{
 
-    Axios.post("/addusers",{
+    Axios.post("https://mern-book-app-nine.vercel.app/addusers",{
       user:user,
       email:email,
       password:password
