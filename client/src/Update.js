@@ -18,7 +18,7 @@ const Update = () => {
  
 
   useEffect(()=>{
-    Axios.get("https://mern-book-app-three.vercel.app/viewbooksbyid/"+id)
+    Axios.get("https://mern-book-app-phi.vercel.app/viewbooksbyid/"+id)
     .then(res=>{
       setvalues({...values, name: res.data.name, aurthor: res.data.aurthor,descripition: res.data.descripition,image: res.data.image,price: res.data.price})
 })
