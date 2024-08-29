@@ -10,7 +10,7 @@ const Conatct = () => {
 
   const contact = ()=>{
 
-    Axios.post("https://mern-book-app-three.vercel.app/contact",{
+    Axios.post("https://mern-book-app-phi.vercel.app/contact",{
       con:con,
       em:em,
       message:message
