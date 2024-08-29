@@ -13,7 +13,7 @@ const Admine = () => {
 
   const admine = ()=>{
 
-    Axios.post("https://mern-book-app-three.vercel.app/admine",{email,password})
+    Axios.post("https://mern-book-app-phi.vercel.app/admine",{email,password})
     .then(result=>{
       if(result.data === 'admine'){
         console.log("success")
