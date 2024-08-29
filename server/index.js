@@ -8,8 +8,10 @@ const MOGODB_URL = process.env.MOGODB_URI;
 const bodyparser = require("body-parser");
 const usermodels = require("./Models/books");
 const contactmodels = require("./Models/contact");
-const ordermodel = require("./Models/order")
+const ordermodel = require("./Models/order");
+const cors = require("cors");
 
+app.use(cors());
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(express.json());
 
