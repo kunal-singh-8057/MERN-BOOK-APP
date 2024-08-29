@@ -27,7 +27,7 @@ const Update = () => {
   const navigate = useNavigate()
 
   const update = ()=>{
-    Axios.put("https://mern-book-app-nine.vercel.app/updatebooksbyid/"+id,values)
+    Axios.put("https://mern-book-app-phi.vercel.app/updatebooksbyid/"+id,values)
     alert("Data updated successfully")
     navigate("/dashboard")
     }
